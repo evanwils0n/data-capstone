@@ -10,5 +10,5 @@ The primary objective of this project is to create a predictive model that will 
 
 To obtain these objectives the project will employ a methodology that will gather a wide range of demographic and socioeconomic data from the US Census Bureau.  The data will be thoroughly cleaned and preprocessed to maintain integrity.  Key variables that influence commuter behavior, such as population density, income levels, employment data, and rail transportation factors, will be captured.  Using this data, machine learning and predictive modeling techniques can be applied to develop a robust predictive model.  This model will then be validated and interpreted so the outputs can be translated into insights.
 
-* The data for the different machine learning models is provided and has been added to the repo as
-* The data was acquired by way of the tidycensus package in R
+* The data for the different machine learning models can be recreated by acquiring the data from the US Census Bureau using the tidycensus package in R
+* The other data source needed for this project is obtained by way of the US Bureau of Transportation Statistics.  The North American Rail Network Lines and Nodes files are available for download 'https://geodata.bts.gov/datasets/usdot::north-american-rail-network-lines/about' & 'https://geodata.bts.gov/datasets/usdot::north-american-rail-network-nodes/about'
