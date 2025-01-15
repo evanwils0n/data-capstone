@@ -24,3 +24,6 @@ Random Forest models are a type of ensemble learning technique.  The â€œforestâ€
 
 #### Neural Network Model (NN)
 Neural Network models, NN, are a type of machine learning model inspired by the structure and processing of the human brain.  A series of interconnected nodes, or neurons, are organized into layers.  An input layer receives an input signal, hidden layers that process this input, and an output layer to produce the final prediction.  These types of layers are especially useful for processing complex, non-linear relationships, which is why this type of model is being used.  Although the data has been adjusted to account for the imbalance in the distribution of the target variable, census data, particularly at lower geographic regions, such as block groups or tracts, tend to be noisy.  The intention is to utilize the reliability of neural network models to account for the imperfections in the data.  This is made available in the NN_Model.ipynb.
+
+#### K-Nearest Neighbor (kNN)
+The K-Nearest Neighbor model was attempted but never fully analyzed.  It was prepared, but still requires fine-tuning to improve F1-Score.
