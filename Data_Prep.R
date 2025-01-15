@@ -8,15 +8,15 @@ library("sf")       # Spatial package
 
 # Read in prepared data
 # Census Data from census_data.R script
-census_data <- read.csv('/Users/evan/acs_data_zipcode.csv', header = TRUE, sep=",")
+census_data <- read.csv('acs_data_zipcode.csv', header = TRUE, sep=",")
 
 # Geospatially processed data exported from QGIS
 # County Boundaries
-#counties_intersect <- read.csv('/Users/evan/Documents/UMUC - Masters Data Analytics/DATA 660 - CapStone/Project Data/counties_enriched.csv', header = TRUE, sep= ",")
+#counties_intersect <- read.csv('ounties_enriched.csv', header = TRUE, sep= ",")
 
 # Convert shapefile to csv with wkt
 # Zip Code Boundaries
-zipcode_shp <- st_read("/Users/evan/Documents/UMUC - Masters Data Analytics/DATA 660 - CapStone/Project Data/tl_2023_us_zcta520")
+zipcode_shp <- st_read("tl_2023_us_zcta520")
 # Add target variable where Rail_YN=1 AND Stop_YN=1
 zipcode_shp$target <- ifelse(zipcode_shp$Rail_YN == 1 & zipcode_shp$Stop_YN == 1, 1, 0)
 
