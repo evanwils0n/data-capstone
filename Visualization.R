@@ -5,7 +5,7 @@ library("tidyr")
 library("tidyverse")
 
 # Load prepared data
-data <- read.csv("/Users/evan/prepared_zipcode_data.csv")
+data <- read.csv("prepared_zipcode_data.csv")
 # Show summary statistics
 summary(data)
 
